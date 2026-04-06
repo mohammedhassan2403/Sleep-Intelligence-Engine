@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sleep Intelligence Engine</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>😴 Sleep Assistant Tracker</h1>
+
+        <form id="sleepForm">
+            <input type="number" step="0.1" placeholder="Sleep Duration (hours)" id="sleep_duration" required>
+            <input type="number" placeholder="Physical Activity Level (1-10)" id="activity" required>
+            <input type="number" placeholder="Stress Level (1-10)" id="stress" required>
+            <input type="number" placeholder="Heart Rate" id="heart_rate" required>
+            <input type="number" placeholder="Daily Steps" id="steps" required>
+
+            <button type="submit">Analyze Sleep</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
